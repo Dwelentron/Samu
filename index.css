@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.start{
+    display: flex;
+    background-color: blueviolet;
+    align-items: center;
+    color: aqua;
+}
+.logo{
+    width: 80px;
+    height: auto;
+    padding-left: 20px;
+}
+.title{
+    font-size: 1.5rem;
+}
+.nav{
+    margin-left: auto;
+    margin-right: 20px;
+}
+.nav ul{
+    display: flex;
+}
+.nav ul li{
+    list-style: none;
+}
+.nav ul li a{
+    color: inherit;
+    text-decoration: none;
+    padding: 13px;
+}
+.drop{
+    display: none;
+}
+.nav ul li:hover{
+    text-decoration: underline red;
+    color: bisque;
+    background-color: black;
+}
+.drop ul{
+    display: grid;
+    width: fit-content;
+}
+.nav li:hover .drop{
+    display: grid;
+    position: absolute;
+}
+.nav li:hover .drop ul{
+    display: grid;
+    background-color: blue;
+}
+.nav li:hover .drop ul li:hover{
+    background-color: rgb(243, 17, 17);
+}
+.nav li:hover .drop ul li a:hover{
+    color: aliceblue;
+    text-decoration: wavy;
+}
+.stat{
+    text-align: center;
+    color: blue;
+}
+.content{
+    margin: 30px;
+}
