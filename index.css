@@ -4,7 +4,7 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: grey;
+    background-color: rgb(101, 206, 31)231, 26, 26;
 }
 .start{
     display: flex;
