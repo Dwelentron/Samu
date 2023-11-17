@@ -68,3 +68,30 @@
     margin: 30px;
    }
 }
+.pic {
+    position: relative;
+    font-size: 2.5em; /* Adjust font size */
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+    padding: 40px;
+    color: rgb(231, 25, 25);
+  }
+  .pic::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-image: url(prog.webp); 
+    pointer-events: none;
+    border-radius: 10%; 
+  }
+  @media(max-width: 500px){
+    .pic{
+        font-size: 1.2rem;
+    }
+  }
