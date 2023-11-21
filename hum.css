@@ -99,3 +99,10 @@
         margin: 5px;
     }
   }
+h3 a{
+    color: gold;
+    text-decoration: crimson underline;
+  }
+h3 a:hover{
+    background-color: black;
+}
