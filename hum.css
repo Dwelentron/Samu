@@ -106,3 +106,21 @@ h3 a{
 h3 a:hover{
     background-color: black;
 }
+.div{
+    border: solid 1px;
+    background-color: rgb(209, 174, 20);
+}
+.fom{
+    padding: 10px;
+}
+.fom label:hover{
+    background-color: rgb(255, 72, 0);
+}
+@media(max-width: 500px){
+    .fom{
+        display: grid;
+    }
+}
+h3 a.active{
+
+}
