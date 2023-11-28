@@ -69,3 +69,36 @@ body{
 .content{
     margin: 10px;
 }
+.star{
+    display: grid;
+    background-color: rgb(187, 148, 100);
+    /* background-image: url(.png); */
+    background-size: cover;
+    height: fit-content;
+    margin: 20px;
+}
+.two{
+    /* background-color: rgb(236, 236, 23); */
+    margin: 10px;
+    grid-column-end: 2;
+    grid-column-start: 1;
+    border-radius: 10%;
+    padding: 10px;
+    width: fit-content;
+}
+.two h2{
+    font-size: 2rem;
+    text-decoration: underline;
+}
+@media(max-width: 500px){
+    .two h2{
+        font-size: 1rem;
+        text-decoration: underline rgb(22, 22, 22);
+    }
+    .two ul li{
+        font-size: 0.6rem;
+    }
+    .star{
+        height: fit-content;
+    }
+}

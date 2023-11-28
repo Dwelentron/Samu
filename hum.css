@@ -130,6 +130,7 @@ h3 a:hover{
     margin: 60px;
 }
 .cot{
+    height: 400;
     background-image: url(prog.webp);
-    
+    image-rendering: crisp-edges;
 }
