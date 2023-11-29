@@ -97,8 +97,52 @@ body{
     }
     .two ul li{
         font-size: 0.6rem;
+        color: antiquewhite;
     }
     .star{
         height: fit-content;
     }
+    .two ul{
+        padding-left: 10px;
+    }
+    #icon img{
+        width: 30px;
+    }
+    .flex{
+        display: grid;
+        width: fit-content;
+        overflow: hidden;
+    }
+    .fle{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .fl{
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+}
+#icon{
+    align-items: center;
+    font-size: 1.5rem;
+    width: fit-content;
+}
+#icon img{
+    width: 50px;
+}
+.flex{
+    display: grid;
+    overflow: hidden;
+    margin: 20px;
+}
+.fle{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-image: url(bnm.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fl{
+    grid-column-start: 2;
+    grid-column-end: 3;
 }

@@ -3,7 +3,7 @@
     top: .4rem;
     right: 1rem;
     display: none;
-    width: 30px;
+    width: 20px;
     height: 20px;
     justify-content: space-between;
     flex-direction: column;
@@ -129,8 +129,37 @@ h3 a:hover{
     text-align: center;
     margin: 60px;
 }
-.cot{
-    height: 400;
+.star{
     background-image: url(prog.webp);
     image-rendering: crisp-edges;
+}
+@media(max-width: 500px){
+    #icon{
+        position: absolute;
+        right: 0svw;
+        font-size: 1rem;
+    }
+    #icon:hover{
+        box-shadow: .7em .7em .7em .7em;
+        margin-right: 20px;
+        transition: 1000ms;
+        border-radius: 10%;
+        padding: 10px;
+    }
+}
+#icon{
+    position: fixed;
+    right: 0svw;
+    font-size: 1rem;
+}
+#icon:hover{
+    box-shadow: .7em .7em .8em;
+    margin-right: 20px;
+    transition: 1000ms;
+    border-radius: 10%;
+    padding: 10px;
+}
+.fb:hover{
+    scale: 0.5;
+    transition: 1000ms;
 }
